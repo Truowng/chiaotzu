@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   font-family: "Fira Sans", sans-serif;
-  background-color: #CBECFF ;
+  background-color: #cbecff;
   overflow-x: hidden;
 }
 
@@ -61,7 +61,7 @@ img {
   transition: all ease 0.5s;
 }
 .button:hover {
-  background-color: #CBECFF;
+  background-color: #cbecff;
 }
 
 .heading-block .badge {
@@ -93,12 +93,12 @@ img {
 
 #header {
   -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 @media only screen and (max-width: 991px) {
   #header {
     -webkit-backdrop-filter: unset;
-            backdrop-filter: unset;
+    backdrop-filter: unset;
   }
 }
 #header .header-wrapper {
@@ -114,9 +114,9 @@ img {
   }
 }
 #header .header-logo {
-  width: 200px;
+  width: 80px;
   display: inline-block;
-  min-width: 200px;
+  min-width: 80px;
 }
 #header .header-nav {
   display: flex;
@@ -140,7 +140,7 @@ img {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    background-color: #ff92b5;
+    background-color: #cbecff;
     justify-content: center;
     transform: translateX(-100%);
     z-index: 200;
@@ -223,6 +223,7 @@ img {
   border: none;
   margin-left: 30px;
   width: 29px;
+  background-color: transparent;
 }
 @media only screen and (max-width: 991px) {
   #header .menu-button {
@@ -487,8 +488,6 @@ img {
   width: 100%;
 }
 
-
-
 #tokenomics {
   margin-top: 140px;
   background: url() no-repeat center;
@@ -512,10 +511,10 @@ img {
   width: 100%;
   padding: 34.5px 45px 34.5px;
   border-radius: 16px;
-  border: 1px solid #CBECFF;
-  
+  border: 1px solid #cbecff;
+
   -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 #tokenomics .tokenomics-content .title {
   font-size: 24px;
